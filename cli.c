@@ -7,11 +7,11 @@ int main(int argc, char **argv){
         return 1;
     }
     if(strcmp(argv[1], "default") == 0){
-        system("sudo cp /etc/tlp.conf.default /etc/tlp.conf");
+        system("sudo cp configs/tlp.conf.default /etc/tlp.conf");
         printf("TLP is started with default settings\n");
         system("sudo tlp start");
     }else if(strcmp(argv[1], "extreme") == 0){
-        system("sudo cp /etc/tlp.conf.extreme /etc/tlp.conf");
+        system("sudo cp configs/tlp.conf.extreme /etc/tlp.conf");
         printf("TLP is started with extreme settings\n");
         system("sudo tlp start");
     return 0;
