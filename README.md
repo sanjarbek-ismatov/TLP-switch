@@ -7,9 +7,9 @@ gcc cli.c -o builds/tlp-switch
 ```
 # Installation
 ```bash
-mkdir -p ~/bin
-cp builds/tlp-switch ~/bin
-chmod 755 ~/bin/tlp-switch
+mkdir -p ~/.local/bin
+cp builds/tlp-switch ~/.local/bin
+chmod 755 ~/.local/bin/tlp-switch
 ```
 # Usage
 ```bash
