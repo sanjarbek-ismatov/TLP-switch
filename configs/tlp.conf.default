@@ -340,8 +340,8 @@ CPU_HWP_DYN_BOOST_ON_BAT=0
 # Wi-Fi power saving mode: on=enable, off=disable.
 # Default: off (AC), on (BAT)
 
-#WIFI_PWR_ON_AC=off
-#WIFI_PWR_ON_BAT=on
+WIFI_PWR_ON_AC=off
+WIFI_PWR_ON_BAT=off
 
 # Disable Wake-on-LAN: Y/N.
 # Default: Y
