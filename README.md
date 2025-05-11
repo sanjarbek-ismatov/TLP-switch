@@ -10,10 +10,10 @@ sudo cmake --install build
 ```
 ## Copy configs to a specific location
 ```bash
-sudo mkdir /usr/share/tlp-switch
-sudo cp .configs/* /usr/share/tlp-switch
+sudo mkdir -p /usr/share/tlp-switch/configs
+sudo cp configs/* /usr/share/tlp-switch/configs
 ```
 # Usage
 ```bash
-tlp-switch <performance|default|extreme|extreme-hybrid> # This power modes are adapted to my system!
+tlp-switch <performance|balanced|extreme|extreme-hybrid> # This power modes are adapted to my system!
 ```
